@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  max-width: 1140px;
+  margin: auto;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  top: 10px;
+  left: 0;
+  &__logo {
+    float: left;
+    & img {
+      width: 200px;
+    }
+  }
+  &__tel {
+    float: right;
+    & ul li {
+      list-style: none;
+      text-align: right;
+      &:nth-child(1){
+        font-size: 34px;
+      }
+    }
+  }
+}
